@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.done {
+    color: #3797f0;
+    font-size: 1.5rem;
+}
+.status {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3797f0;
+}
+.title, .sub-title, .bio-title {
+    text-align: center;
+    margin: 0;
+}
+.sub-title {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.image-container {
+    margin: 10px 0;
+}
+.image-container img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.bio-title {
+    font-size: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.bio {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.bio li {
+    list-style-type: none;
+}
+.socials {
+    text-align: center;
+}
+.socials a {
+    font-size: 32px;
+    margin: 10px;
+    color: #111111;
+}
+
+.phone-number {
+    text-decoration: none;
+    color: #111111;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.socials a:hover, .phone-number:hover {
+    color: #3797f0;
+}
