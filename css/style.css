@@ -65,3 +65,48 @@
 .socials a:hover, .phone-number:hover {
     color: #3797f0;
 }
+
+
+.extended-title {
+    margin: 0;
+    font-size: 1.5rem;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.extended-sub-title {
+    text-align: right;
+    margin: 0;
+    font-size: 1.5rem;
+    position: relative;
+    top: 22px;
+}
+.extended-bio-title {
+    font-size: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+.extended-avatar {
+    display: inline-block;
+    width: 64px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#extended-version {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+#mobile-version {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    #mobile-version {
+        display: block;
+    }
+    #extended-version {
+        display: none;
+    }
+}
