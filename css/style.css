@@ -98,6 +98,13 @@
     display: flex;
     align-items: center;
 }
+.blue-link {
+    color: #3797f0;
+    text-decoration: none;
+}
+.blue-link:hover {
+    color: #2d4289;
+}
 #mobile-version {
     display: none;
 }
